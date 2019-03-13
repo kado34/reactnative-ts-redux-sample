@@ -11,8 +11,6 @@ import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-// import TestModule from './containers/testModule';
-
 import appReducer, { initialState } from './appReducer';
 import TodoScreen from './containers/TodoScreen';
 
