@@ -1,4 +1,4 @@
-import { State } from 'appReducer';
+import { State } from './../appReducer';
 import { TodoProps } from './../components/TodoScreen';
 import { Dispatch } from 'react';
 import { TodoAction, add, reset } from './../actions/todos';
